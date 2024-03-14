@@ -166,7 +166,7 @@
                 <v-card-subtitle>By Kevin Chen | 14 mar 2024</v-card-subtitle>
                 <v-card-text>
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Earum, a? Pariatur eveniet corporis dolores
+                  Earum,
                 </v-card-text>
               </v-card>
             </v-col>
@@ -177,7 +177,7 @@
                 <v-card-subtitle>By Kevin Chen | 14 mar 2024</v-card-subtitle>
                 <v-card-text>
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Earum, a? Pariatur eveniet corporis dolores
+                  Earum,
                 </v-card-text>
               </v-card>
             </v-col>
@@ -274,6 +274,7 @@
         </v-row>
       </v-col>
     </v-container>
+    <FooterView />
   </v-app>
 </template>
 
@@ -282,6 +283,7 @@ import { defineComponent } from "vue";
 
 // Components
 import NavBar from "../components/NavBar.vue";
+import FooterView from "./FooterView.vue";
 
 export default defineComponent({
   name: "HomeView",
@@ -313,6 +315,7 @@ export default defineComponent({
 
   components: {
     NavBar,
+    FooterView,
   },
 });
 </script>
